@@ -1,5 +1,3 @@
-
-
 const carousel = document.querySelector('.carousel-slide');
 const carouselSlides = document.querySelectorAll('.slide');
 

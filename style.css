@@ -8,6 +8,10 @@ header {
     color: khaki;
 }
 
+footer {
+    font-size: 0.8rem;
+}
+
 h1 {
     size: 60px;
     margin-bottom: -20px;
