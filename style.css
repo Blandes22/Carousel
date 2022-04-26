@@ -1,0 +1,178 @@
+html {
+    background-color:black;
+    font-family: 'PT Serif', serif;
+}
+
+header {
+    text-align: center;
+    color: khaki;
+}
+
+h1 {
+    size: 60px;
+    margin-bottom: -20px;
+}
+
+h2 {
+    size: 30px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h3, h4 {
+    color: black;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+body {
+    color: white;
+}
+
+.carousel-container {
+    z-index: 0;
+    position: relative;
+    width: 1400px;
+    height: 700px;
+    margin: auto;
+    background-image: url("images/carousel-background.jpg");
+    border: solid;
+    border-width: 20px;
+    border-image: url("images/carousel-border.jpg") 30 round;
+    overflow: hidden;
+}
+
+.prev, .next {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 275px;
+    top: 0px;
+    background-color: rgb(75,75,75,0.3);
+    width: 100px;
+    height : 425px;
+    cursor: pointer;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgb(75,75,75,0.8);
+    transition: 0.5s;
+}
+
+.prev {
+    left: 0px;
+}
+
+.next {
+    right: 0px;
+}
+
+.carousel-slide {
+    display: inline-flex;
+}
+
+.slide {
+    width: 1400px;
+    height: 700px;
+    font-size: 0.9rem;
+}
+
+.banner {
+    color: black;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-bottom: -15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(246, 207, 145, 0.8);
+}
+
+.banner-note {
+    color: black;
+    padding-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(246, 207, 145, 0.8); 
+    border-bottom: solid 5px;
+    border-color: black;
+}
+
+.synoposis-parent {
+    display: inline-flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.synoposis-parent #img-02 {
+    padding-top: 25px;
+    padding-left: 15px;
+    height: 50%;
+    width: 50%;
+}
+
+#synoposis-text {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 5px;
+    color: black;
+    font-weight: bolder;
+}
+
+.award-parent, .History-parent, .gameplay-parent {
+    display: inline-flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.award-parent .img-01 {
+    padding-top: 100px;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.award-parent li {
+    color: black;
+    background-color: red;
+}
+
+.History-parent img, .gameplay-parent img{
+    padding: 25px;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+}
+
+.History-parent p, .gameplay-parent p{
+    text-align: center;
+    padding: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+.won {
+    background-color: green !important;
+}
+
+.img-00 {
+    margin-left: auto;
+    margin-right: auto;
+    height: 65%;
+    width: 65%;
+    padding-bottom: 50px;
+}
