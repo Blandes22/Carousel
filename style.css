@@ -42,8 +42,8 @@ body {
 .carousel-container {
     z-index: 0;
     position: relative;
-    width: 1400px;
-    height: 700px;
+    max-width: 1400px;
+    max-height: 700px;
     margin: auto;
     background-image: url("images/carousel-background.jpg");
     border: solid;
@@ -83,8 +83,8 @@ body {
 }
 
 .slide {
-    width: 1400px;
-    height: 700px;
+    max-width: 1400px;
+    max-height: 700px;
     font-size: 0.9rem;
 }
 
