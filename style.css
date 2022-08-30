@@ -1,5 +1,5 @@
 html {
-    background-color:black;
+    background-color: black;
     font-family: 'PT Serif', serif;
 }
 
@@ -26,7 +26,8 @@ h3 {
     font-size: 1.5rem;
 }
 
-h3, h4 {
+h3,
+h4 {
     color: black;
 }
 
@@ -52,21 +53,23 @@ body {
     overflow: hidden;
 }
 
-.prev, .next {
+.prev,
+.next {
     z-index: 1;
     position: absolute;
     text-align: center;
     font-size: 100px;
     padding-top: 275px;
     top: 0px;
-    background-color: rgb(75,75,75,0.3);
+    background-color: rgb(75, 75, 75, 0.3);
     width: 100px;
-    height : 425px;
+    height: 425px;
     cursor: pointer;
 }
 
-.prev:hover, .next:hover {
-    background-color: rgb(75,75,75,0.8);
+.prev:hover,
+.next:hover {
+    background-color: rgb(75, 75, 75, 0.8);
     transition: 0.5s;
 }
 
@@ -108,7 +111,7 @@ body {
     font-size: 0.9rem;
     margin-left: 100px;
     margin-right: 100px;
-    background-color: rgb(246, 207, 145, 0.8); 
+    background-color: rgb(246, 207, 145, 0.8);
     border-bottom: solid 5px;
     border-color: black;
 }
@@ -136,9 +139,12 @@ body {
     padding-right: 5px;
     color: black;
     font-weight: bolder;
+    width: 50%;
 }
 
-.award-parent, .History-parent, .gameplay-parent {
+.award-parent,
+.History-parent,
+.gameplay-parent {
     display: inline-flex;
     margin-left: 100px;
     margin-right: 100px;
@@ -155,18 +161,25 @@ body {
     background-color: red;
 }
 
-.History-parent img, .gameplay-parent img{
+.History-parent img,
+.gameplay-parent img {
     padding: 25px;
     margin: auto;
     height: 50%;
     width: 50%;
 }
 
-.History-parent p, .gameplay-parent p{
+.History-parent p,
+.gameplay-parent p {
     text-align: center;
     padding: 25px;
     color: black;
     font-weight: bolder;
+    width: 50%;
+}
+
+#history-text #gameplay-text {
+    width: 50%;
 }
 
 .won {
